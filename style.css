@@ -1,0 +1,152 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    box-shadow: 10px 10px 40px grey;
+    position: sticky;
+    top: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    margin-right: 25px;
+    font-size: 25px;
+}
+
+#logo img{
+    width: 100%;
+}
+
+#menu{
+    margin-top: 20px;
+}
+
+#logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h3{
+
+    font-size: 25px;
+    padding-left: 15%;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+#top-ban{
+    margin-top: 30%;
+}
+
+.orange-text{
+    color: #FB984C;
+}
+
+.dark-gray-text{
+    color: #575757;
+}
+
+.gray-text{
+    color:#828282;
+}
+
+.flex-container{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 1%;
+    padding-left: 3%;
+}
+
+.half-width img{
+    width: 80%;
+}
+
+.btn{
+    width: 50px;
+    height: 10px;
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 18px 35px 18px 35px;
+    border-radius: 40px;
+}
+
+.aboutme{
+    display: flex;
+    background-image: url(images/aboutbg.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.me-text{
+    margin-top: 5%;
+}
+
+#my-re{
+    text-align: center;
+}
+
+.rec-item{
+    width: 25%;
+    height: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.rec-item img{
+    width: 100%;
+    height: 100%;
+}
+
+.counting{
+    width: 88%;
+    height: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.each-part{
+    width: 25%;
+    margin-left: 10%;
+}
+
+.ftr{
+    width: 100%;
+    height: 30%;
+    background-color: #0B0D17;
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 5%
+}
